@@ -3,6 +3,22 @@ using namespace std;
 
 //Write the function printO() here
 
+void printO(int x, int y){int i = 0, j = 0;
+	if(x > 0 && y > 0)
+	{while(j < x){
+		i = 0;
+		while(i < y){
+		cout << "O";
+	i = i + 1;}
+
+	cout << "\n";
+	j = j + 1;
+	}}
+	else{
+		cout << "Invalid input";
+	}
+}
+
 int main(){
 	
 	printO(2,2);
